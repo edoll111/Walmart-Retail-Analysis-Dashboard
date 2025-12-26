@@ -1,2 +1,24 @@
-# Walmart-Retail-Analysis-Dashboard
-A dynamic Power BI dashboard for Walmart sales analysis, featuring Python-based data cleaning and DAX modeling to uncover insights from macroeconomic indicators.
+# 沃尔玛零售业务动态决策支持系统 🛒
+
+![Dashboard Preview](Preview.png)
+
+## 📋 项目概述
+本项目通过对沃尔玛 45 家门店的历史销售数据进行深度挖掘，结合宏观经济指标（CPI、失业率等），构建了一个高度交互的决策支持看板。
+
+## 🚀 核心技术栈
+* **数据清洗:** Python (Pandas) - 解决原始数据乱码，完成特征工程。
+* **商业智能:** Power BI (DAX) - 构建多维数据模型，实现跨页联动。
+* **分析维度:** 节假日效应、宏观经济关联、季节性波动。
+
+## 💡 核心洞察
+1. **反周期韧性:** 失业率小幅波动下，沃尔玛销售额保持稳健，体现平价零售的抗压性。
+2. **节假日爆发:** 节假日周销售平均增幅达 7-10%，识别出关键的补货窗口期。
+3. **环境敏感度:** 气温极值对线下客流有明显冲击，建议联动线上配送策略。
+
+## 📂 文件说明
+* `沃尔玛销售分析.pbix`: Power BI 完整看板文件。
+* `Walmart_Sales.ipynb`: 数据预处理与清洗的 Python 源码。
+* `沃尔玛销售数据_清洗后.csv`: 经过清洗后的结构化数据集。
+
+---
+**💡 欢迎交流与建议！**
